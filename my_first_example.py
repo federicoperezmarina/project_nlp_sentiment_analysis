@@ -1,7 +1,8 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-analyzer = SentimentIntensityAnalyzer()
+if __name__ == "__main__" :
 
-text = "I love buying clothes at Mango."
-result = analyzer.polarity_scores(text)
-print(result)
+	analyzer = SentimentIntensityAnalyzer()
+	text = "The first lovely example of vaderSentiment."
+	result = analyzer.polarity_scores(text)
+	print(result)
