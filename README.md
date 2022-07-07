@@ -275,9 +275,9 @@ The ``compound`` score is computed by summing the valence scores of each word in
 It is also useful for researchers who would like to set standardized thresholds for classifying sentences as either positive, neutral, or negative.  
 Typical threshold values (used in the literature cited on this page) are:
 
-**positive sentiment**: ``compound`` score >=  0.05
-**neutral  sentiment**: (``compound`` score > -0.05) and (``compound`` score < 0.05)
-**negative sentiment**: ``compound`` score <= -0.05
+- **positive sentiment**: ``compound`` score >=  0.05
+- **neutral  sentiment**: (``compound`` score > -0.05) and (``compound`` score < 0.05)
+- **negative sentiment**: ``compound`` score <= -0.05
 
 
 
